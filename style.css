@@ -1,0 +1,177 @@
+body {
+    margin-top: 50px;
+}
+
+.container {
+    background-color: #1de592;
+    border-radius: 10px;
+    padding: 15% 10%;
+    width: 60%;
+    margin: auto;
+
+}
+
+.container>h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container>p {
+    color: #0e0e0e;
+    font-weight: bold;
+}
+
+.container>button {
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    padding: 10px 25px;
+    color: #0e0e0e;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.container-1 {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+
+.container-1>div {
+    padding: 5% 5%;
+    margin: auto;
+}
+
+.container-1>div>h2 {
+    font-size: 30px;
+
+}
+
+.container-1>div>p {
+    font-size: 25px;
+
+}
+
+.container-1>div>img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(189, 183, 183);
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+
+.container-1>hr {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container-1>a {
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 5%;
+
+
+}
+
+.container-2 {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.container-2>div {
+    width: 100%;
+}
+
+.container-2>div>img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-2>div:nth-child(2) {
+    margin: 20px;
+}
+
+.container-2>div:nth-child(2)>img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.container-2>div:nth-child(2)>span {
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.container-2>div:nth-child(2)>h3 {
+    margin-top: 10px;
+    padding-left: 2px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container-2>div:nth-child(2)>p {
+    margin-top: 0px;
+    padding-left: 2px;
+    font-size: 20px;
+    padding-right: 25px;
+}
+.container-2>div:nth-child(2)>button {
+    border-radius: 5px;
+    border:1px solid gray !important;
+    background-color: white;
+    padding: 10px 25px;
+    color: #1b11a7;
+    font-weight: bolder;
+    font-size: larger;
+}
+.form{
+    padding-top: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.form>img p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form>input{
+    width: 70%;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border:1px solid lightgray;
+    padding-left: 15px;
+    
+}
+#decla{
+    width: 70%;
+    margin: auto;
+}
+.form>a,p a{
+    color: black;
+}
+.form>button{
+background-color: black;
+border-radius: 50px;
+color: white;
+padding: 10px 25px;
+font-size: 15px;
+margin-top: 15px;
+
+}
+#welcome{
+    font-weight: bolder;
+}
